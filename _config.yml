@@ -26,7 +26,7 @@ author:
   linkedin: douglas-orellana-1025
   bio: Happy Hacking!!!
 
-rss_path: feed.xml
+#rss_path: feed.xml
 categories_path: categories.html
 tags_path: tags.html
 
