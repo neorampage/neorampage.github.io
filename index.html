@@ -22,6 +22,9 @@ tagline:
   <h2>
     <a href="{{ site.BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
   </h2>
+  <img src={{ "/assets/img/" | append : page.img}}
+     alt="{{page.title}}"
+     width="400" height="453" />
   <div>
     {% if post.fullview %}
     {{ post.content }}
