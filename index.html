@@ -30,6 +30,7 @@ tagline:
     {{ post.shortinfo }}
     {% elsif post.description %}
     {{ post.description }}
+     {% else %}
     {{ post.excerpt }}
     {% endif %}
     {% endif %}
