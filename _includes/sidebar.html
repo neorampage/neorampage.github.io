@@ -24,13 +24,7 @@
 			</a>
 		</li>
 		{% endif %}
-		{% if site.author.email %}
-		<li>
-			<a class="btn btn-default btn-sm" href="mailto:{{ site.author.email }}">
-				<i class="fa fa-envelope fa-lg"></i>
-			</a>
-		</li>
-		{% endif %}
+
 				{% if site.author.github %}
 		<li>
 			<a class="btn btn-default btn-sm" href="https://github.com/{{ site.author.github }}">
@@ -42,6 +36,13 @@
 		<li>
 			<a class="btn btn-default btn-sm" href="https://linkedin.com/in/{{ site.author.linkedin }}">
 				<i class="fa fa-linkedin fa-lg"></i>
+			</a>
+		</li>
+		{% endif %}
+				{% if site.author.email %}
+		<li>
+			<a class="btn btn-default btn-sm" href="mailto:{{ site.author.email }}">
+				<i class="fa fa-envelope fa-lg"></i>
 			</a>
 		</li>
 		{% endif %}
