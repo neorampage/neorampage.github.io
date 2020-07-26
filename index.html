@@ -31,6 +31,8 @@ tagline:
     {{ post.shortinfo }}
     {% elsif post.description %}
     {{ post.description }}
+    {% elsif post.img %}
+    {{ post.img }}
     {% else %}
     {{ post.excerpt }}
     {% endif %}
