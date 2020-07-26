@@ -29,9 +29,6 @@ tagline:
     {{ post.shortinfo }}
     {% elsif post.description %}
     {{ post.description }}
-    {% elsif post.img %}
-    <img class="page-image" src={{ "/assets/img/thm/Lian_Yu/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
-    {% else %}
     {{ post.excerpt }}
     {% endif %}
     {% endif %}
